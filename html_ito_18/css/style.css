@@ -1,0 +1,593 @@
+/* ここから下に記載していく */
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+.container {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+
+}
+
+    .CAT{
+        padding: 15px;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .main.menu {
+        display: flex;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+        .card{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;  
+    /* justify-content: center;   */
+  }
+  
+  .image-container img {
+    width: 100%;  
+    height: auto; 
+  }
+  
+  .centered-text {
+    position: absolute;    }
+    /* これでテキストを画像の上に表示 */
+    /* 親要素image-containerを基準にプロパティで位置を指定 */
+
+  .text1 {
+    color: white;  
+    font-size: 36px;  
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+}
+  
+  .text2 {
+    color: white;  
+    font-size: 24px;
+    /* font-weight: bold; */
+    text-align: center;  
+    margin: 15px;  
+}
+
+.intro {
+    display: flex;
+    justify-content: center;    
+}
+
+    .textALL {
+        text-align: center;  
+    }
+
+        .ABOUT {
+            font-size: 24px;
+            color: #ffd61a;
+            font-weight: bold;
+            margin-top: 60px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        .textA {
+            font-size: 18px;
+            color: #222;
+            margin-top: 30px;
+        }    
+    
+        .textB {
+            font-size: 16px;
+            color: #222;
+            margin-top: 60px;
+        }
+
+        .textC {
+            font-size: 16px;
+            color: #222;
+            margin-top: 40px;
+        }
+        
+        .textD {
+            font-size: 16px;
+            color: #222;
+            margin-top: 40px;
+        }
+
+        .textE {
+            font-size: 16px;
+            color: #222;
+            margin-top: 40px;
+        }
+
+.image-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.image {
+    transition: transform 0.1s ease; /* 画像拡大時のアニメーション設定 */
+    /* 画像幅を計算 */
+    width: calc(100%/4); 
+
+}
+
+.image:hover {
+    transform: scale(1.1); 
+}
+
+.intro2 {
+    display: flex;
+    justify-content: center;    
+}
+
+    .textALL2 {
+        text-align: center;  
+    }
+
+        .COURSE {
+            font-size: 24px;
+            color: #222;
+            font-weight: bold;
+            margin-top: 60px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .textF {
+            font-size: 16px;
+            color: #222;
+            margin-top: 30px;
+        }    
+
+.courses {
+    width: 100%;
+}
+
+    .course1 {
+        display: flex;
+        margin-top: 60px;
+        /* justify-content: center; */
+        width: 100%
+
+    }
+
+    .course1img, .course1text {
+        width: 50%; 
+
+    }
+
+    /* 画像に対する指示はimgを追加 */
+    .course1img img{ 
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .course1text {
+        display: flex;
+        background-color: #fafafa;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+        .course1text1 {
+            width: 480px;
+            margin-left: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            
+        }
+
+        .course1text2 {
+            width: 480px;
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+
+    .course2 {
+        display: flex;
+        width: 100%
+
+    }
+
+    .course2img, .course2text {
+        width: 50%; 
+
+    }
+
+    /* 画像に対する指示はimgを追加 */
+    .course2img img{ 
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .course2text {
+        display: flex;
+        background-color: #fafafa;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+        .course2text1 {
+            width: 480px;
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: calc(100% - 530px);
+
+        }
+
+        .course2text2 {
+            width: 480px;
+            margin-top: 40px;
+            margin-left: calc(100% - 530px);
+
+        }
+ 
+    .course3 {
+        display: flex;
+        /* justify-content: center; */
+        width: 100%
+    }
+
+    .course3img, .course3text {
+        width: 50%; 
+
+    }
+
+    /* 画像に対する指示はimgを追加 */
+    .course3img img{ 
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .course3text {
+        display: flex;
+        background-color: #fafafa;
+        flex-direction: column;
+        justify-content: center;
+        /* position: relative; */
+
+    }
+
+        .course3text1 {
+            width: 480px;
+            font-size: 18px;
+            font-weight: bold;
+            /* position: absolute; */
+            margin-left: 50px;
+            
+        }
+
+        .course3text2 {
+            width: 480px;
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+
+
+.NEWS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .NEWStitles {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 60px;
+        flex-direction: column;
+
+    }
+
+        .NEWStitle1 {
+            font-size: 24px;
+            color: #ffd61a;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        .NEWStitle2 {
+            font-size: 16px;
+            color: #222;
+            margin-top: 30px;
+        }
+    
+    .news123 {
+        display: flex;
+        margin-top: 60px;
+    }
+
+     .newses {
+        width: 300px;
+        margin: 0 15px;
+        transition: transform 0.1s ease; /* 画像拡大時のアニメーション設定 */    
+     }
+
+    .newses:hover {
+        transform: scale(1.1); 
+    }
+    
+        .newsimg {
+            width: 300px;
+        }
+
+        .newsdate {
+            margin-top: 30px;
+            margin-bottom: 24px;
+            font-size: 14px;
+        }
+
+        .newstexts {
+            font-size: 14px;
+        }
+
+.MORE {
+    margin-top: 60px;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #ffd61a;
+    color: white;
+    display: flex;
+    align-items: center;   
+    justify-content: center; 
+    transition: transform 0.1s ease;
+    margin-bottom: 60px;
+}
+
+.MORE:hover {
+    transform: scale(1.1);
+}
+
+.ACCESS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+    .ACCESS1 {
+        margin-top: 60px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .ACCESS2 {
+        margin-top: 30px;
+        margin-bottom: 60px;
+
+    }
+
+    .map {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .ACCESS3 {
+        margin-top: 30px;
+        margin-bottom: 60px;
+
+    }
+
+        .line {
+            display: flex;
+            height: 10px;
+            margin-top: 30px;
+        }
+
+        .right {
+            width: 100px;
+            display: flex;
+            margin-right: 50px
+                    }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;   
+}
+    .context1 {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    .context2 {
+        margin-top: 60px;
+        font-size: 16px;
+    }
+    
+    .context3 {
+        margin-top: 30px;
+        margin-bottom: 70px;
+        font-size: 16px;
+    }
+
+.forms {
+    display: flex;
+    font-size: 1px;
+
+}
+
+#cheese-academy-form {
+    width: 640px;
+    margin: 0 auto;
+}
+
+    .form-row {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border-top: 1px solid #bfbfbf;
+        border-bottom: 1px solid #bfbfbf;
+    }
+
+    .form-row:last-child {
+        border-bottom: none;
+    }
+
+    .form-row label {
+        width: 250px;
+        height: 50px;
+        margin-left: 16px;
+        border-right: 1px solid #bfbfbf;
+        display: flex;
+        align-items: center;
+    }
+
+    .form-row input[type=text], .form-row input[type=email], .form-row select {
+        width: 328px;
+        height: 36px;
+        margin-left: 64px;
+    }
+
+    .form-row1 {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border-top: 1px solid #bfbfbf;
+        border-bottom: 1px solid #bfbfbf;
+        height: 200px;
+    }
+
+    .form-row1:last-child {
+        border-bottom: none;
+    }
+
+    .form-row1 label {
+        width: 240px;
+        /* height: 200px; */
+        margin-left: 16px;
+            }
+
+    .doki {
+        border-right: 1px solid #bfbfbf;
+        display: flex;
+        align-items: center;
+        height: 200px;
+        width: 250px;
+    }
+
+    .checkbox-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 64px;
+        height: 200px;
+        
+    }
+
+    .motive1 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    .motive2 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    .motive3 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    .motive4 {
+        display: flex;
+        align-items: center;
+    }
+    .checkbox-group input[type=checkbox] {
+        margin-bottom: 
+    }
+
+    .form-row2 {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border-top: 1px solid #bfbfbf;
+        border-bottom: 1px solid #bfbfbf;
+    }
+
+    .form-row2:last-child {
+        border-bottom: none;
+    }
+
+    .form-row2 label {
+        width: 250px;
+        height: 50px;
+        margin-left: 16px;
+        border-right: 1px solid #bfbfbf;
+        display: flex;
+        align-items: center;
+    }
+
+    .form-row2 input[type=text], .form-row input[type=email], .form-row select {
+        width: 328px;
+        height: 36px;
+        margin-left: 64px;
+    }
+
+    .submit {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px
+    }
+
+    .submit input {
+        width: 200px;
+        height: 40px;
+        border: 0;
+        background-color: #ffd61a;
+        color: white;
+        font-size: 14px;
+        transition: transform 0.1s ease; /* 画像拡大時のアニメーション設定 */    
+    }
+
+
+    .submit input:hover {
+   transform: scale(1.1); 
+    }
+
+.bottom {
+    margin-top: 140px;
+    width: 100%;
+    background-color: #707070;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    height: 70px;
+    align-items: center;
+}
